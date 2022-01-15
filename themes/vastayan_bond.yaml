@@ -1,19 +1,31 @@
 Vastayan Bond:
   ### Created by: SnakeFist007, January 2022
+  ### Xayah Inspired - "Dark-Theme"
+  #
+  ### Theme Color Palette ###
+  # #784f73 / #ab70fe ## Xayah Main Colors
+  # #a93451 / #d93b62 ## Xayah Secondary Colors
+  # #6a3079 / #ad4ec5 ## Xayah Tertiary Colors
+  #
+  # #ae3822 / #e65438 ## Rakan Main Colors
+  #
+  # #f7dcf3 / #ffffff ## White Tones
+  # #140a19 / #000000 ## Black Tones
+  #
+  ### Rakan Inspired - "Light-Theme"
+  #
+  ### Theme Color Palette
+  # #ae3822 / #e65438 ## Rakan Main Colors
+  # #ddab1a / #f4bc4e ## Rakan Secondary Colors
+  # #488b74 / #6fd7b3 ## Rakan Tertiary Colors
+  #
+  # #a93451 / #d93b62 ## Xayah Main Colors
+  #
+  # #f7e7e3 / #ffffff ## White Tones
+  # #140a19 / #000000 ## Black Tones
+
   modes:
     dark:
-      ### Xayah Inspired - "Dark-Theme"
-
-      ### Theme Color Palette ###
-      # #ae3822 / #e65438 ## Rakan Main Colors
-
-      # #784f73 / #ab70fe ## Xayah Main Colors
-      # #a93451 / #d93b62 ## Xayah Secondary Colors
-      # #6a3079 / #ad4ec5 ## Xayah Tertiary Colors
-
-      # #f7dcf3 / #ffffff ## White Tones
-      # #140a19 / #000000 ## Black Tones
-
       ### Header ###
       header-height: 45px
       app-header-background-color: "#140a19"
@@ -97,20 +109,7 @@ Vastayan Bond:
       switch-unchecked-button-color: var(--divider-color)
       switch-unchecked-track-color: var(--divider-color)
 
-
     light:
-      ### Rakan Inspired - "Light-Theme"
-
-      ### Theme Color Palette
-      # #a93451 / #d93b62 ## Xayah Main Colors
-
-      # #ae3822 / #e65438 ## Rakan Main Colors
-      # #ddab1a / #f4bc4e ## Rakan Secondary Colors
-      # #488b74 / #6fd7b3 ## Rakan Tertiary Colors
-
-      # #f7e7e3 / #ffffff ## White Tones
-      # #140a19 / #000000 ## Black Tones
-
       ### Header ###
       header-height: 45px
       app-header-background-color: "#fefefe"
