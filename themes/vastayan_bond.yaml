@@ -1,0 +1,195 @@
+Vastayan Bond:
+  ### Created by: SnakeFist007, January 2022
+  modes:
+    dark:
+      ### Xayah Inspired - "Dark-Theme"
+
+      ### Theme Color Palette ###
+      # #ae3822 / #e65438 ## Rakan Main Colors
+
+      # #784f73 / #ab70fe ## Xayah Main Colors
+      # #a93451 / #d93b62 ## Xayah Secondary Colors
+      # #6a3079 / #ad4ec5 ## Xayah Tertiary Colors
+
+      # #f7dcf3 / #ffffff ## White Tones
+      # #140a19 / #000000 ## Black Tones
+
+      ### Header ###
+      header-height: 45px
+      app-header-background-color: "#140a19"
+
+      ### Fonts ###
+      primary-font-family: "ProximaNova-Regular,Raleway,Roboto,sans-serif"
+      paper-font-common-base_-_font-family: "var(--primary-font-family)"
+      paper-font-common-code_-_font-family: "var(--primary-font-family)"
+      paper-font-body1_-_font-family: "var(--primary-font-family)"
+      paper-font-subhead_-_font-family: "var(--primary-font-family)"
+      paper-font-headline_-_font-family: "var(--primary-font-family)"
+      paper-font-caption_-_font-family: "var(--primary-font-family)"
+      paper-font-title_-_font-family: "var(--primary-font-family)"
+      ha-card-header-font-family: "var(--primary-font-family)"
+
+      ### Main Interface Colors ###
+      primary-color: "#a93451"
+      light-primary-color: "#d93b62"
+      card-background-color: "rgba(50, 25, 33, 1)"
+      primary-background-color: var(--app-header-background-color)
+      secondary-background-color: "#32193f"
+      divider-color: "#a93451"
+      accent-color: "#e65438"
+      markdown-code-background-color: "#ae3822"
+      unique-color: "#ab70fe"
+
+      ### Text ###
+      primary-text-color: "#FFFFFF"
+      secondary-text-color: var(--light-primary-color)
+      text-primary-color: var(--primary-text-color)
+      disabled-text-color: "#784f73"
+
+      ### Sidebar Menu ###
+      sidebar-icon-color: "#a93451"
+      sidebar-text-color: "#FFFFFF"
+      sidebar-selected-background-color: var(--primary-background-color)
+      sidebar-selected-icon-color: var(--light-primary-color)
+      sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+      sidebar-background-color: var(--primary-background-color)
+
+      ### HACS ###
+      hcv-color-new: "#a93451"
+
+      ### States and Badges ###
+      state-icon-color: var(--primary-color)
+      state-icon-active-color: "#ff5151"
+      state-icon-unavailable-color: var(--disabled-text-color)
+
+      ### Sliders ###
+      paper-slider-knob-color: var(--primary-color)
+      paper-slider-knob-start-color: var(--paper-slider-knob-color)
+      paper-slider-pin-color: var(--paper-slider-knob-color)
+      paper-slider-active-color: var(--paper-slider-knob-color)
+      paper-slider-secondary-color: var(--light-primary-color)
+
+      ### Labels ###
+      label-badge-background-color: var(--markdown-code-background-color)
+      label-badge-text-color: var(--primary-text-color)
+      label-badge-red: var(--divider-color)
+      label-badge-yellow: "#e54a5d"
+
+      ### Cards ###
+      ha-card-border-radius: "10px"
+      ha-card-background: "rgba(0, 0, 0, 0.85)"
+      paper-card-header-color: var(--primary-text-color)
+      paper-card-background-color: var(--ha-card-background)
+      paper-listbox-background-color: var(--primary-background-color)
+
+      ### Toggles ###
+      paper-toggle-button-checked-button-color: "#FCFCFC"
+      paper-toggle-button-checked-bar-color: var(--light-primary-color)
+      paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+      paper-toggle-button-unchecked-bar-color: "#6a3079"
+
+      ### Table row ###
+      table-row-background-color: var(--primary-background-color)
+      table-row-alternative-background-color: var(--primary-background-color)
+      data-table-background-color: var(--primary-background-color)
+
+      ### Switches ###
+      switch-unchecked-button-color: var(--divider-color)
+      switch-unchecked-track-color: var(--divider-color)
+
+
+    light:
+      ### Rakan Inspired - "Light-Theme"
+
+      ### Theme Color Palette
+      # #a93451 / #d93b62 ## Xayah Main Colors
+
+      # #ae3822 / #e65438 ## Rakan Main Colors
+      # #ddab1a / #f4bc4e ## Rakan Secondary Colors
+      # #488b74 / #6fd7b3 ## Rakan Tertiary Colors
+
+      # #f7e7e3 / #ffffff ## White Tones
+      # #140a19 / #000000 ## Black Tones
+
+      ### Header ###
+      header-height: 45px
+      app-header-background-color: "#fefefe"
+
+      ### Fonts ###
+      primary-font-family: "ProximaNova-Regular,Raleway,Roboto,sans-serif"
+      paper-font-common-base_-_font-family: "var(--primary-font-family)"
+      paper-font-common-code_-_font-family: "var(--primary-font-family)"
+      paper-font-body1_-_font-family: "var(--primary-font-family)"
+      paper-font-subhead_-_font-family: "var(--primary-font-family)"
+      paper-font-headline_-_font-family: "var(--primary-font-family)"
+      paper-font-caption_-_font-family: "var(--primary-font-family)"
+      paper-font-title_-_font-family: "var(--primary-font-family)"
+      ha-card-header-font-family: "var(--primary-font-family)"
+
+      ### Main Interface Colors ###
+      primary-color: "#e65438"
+      light-primary-color: "#d93b62"
+      card-background-color: "rgba(255, 246, 246, 1)"
+      primary-background-color: var(--app-header-background-color)
+      secondary-background-color: "#ffffff"
+      divider-color: "#e65438"
+      accent-color: "#d93b62"
+      markdown-code-background-color: "#ffffff"
+      unique-color: "#f4bc4e"
+
+      ### Text ###
+      primary-text-color: "#000000"
+      secondary-text-color: var(--light-primary-color)
+      text-primary-color: var(--primary-text-color)
+      disabled-text-color: "#784f73"
+
+      ### Sidebar Menu ###
+      sidebar-icon-color: "#e65438"
+      sidebar-text-color: "#000000"
+      sidebar-selected-background-color: var(--primary-background-color)
+      sidebar-selected-icon-color: var(--light-primary-color)
+      sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+      sidebar-background-color: var(--primary-background-color)
+
+      ### HACS ###
+      hcv-color-new: "#e65438"
+
+      ### States and Badges ###
+      state-icon-color: var(--primary-color)
+      state-icon-active-color: "#ff763e"
+      state-icon-unavailable-color: var(--disabled-text-color)
+
+      ### Sliders ###
+      paper-slider-knob-color: var(--primary-color)
+      paper-slider-knob-start-color: var(--paper-slider-knob-color)
+      paper-slider-pin-color: var(--paper-slider-knob-color)
+      paper-slider-active-color: var(--paper-slider-knob-color)
+      paper-slider-secondary-color: var(--light-primary-color)
+
+      ### Labels ###
+      label-badge-background-color: var(--markdown-code-background-color)
+      label-badge-text-color: var(--primary-text-color)
+      label-badge-red: var(--divider-color)
+      label-badge-yellow: "#ae3822"
+
+      ### Cards ###
+      ha-card-border-radius: "10px"
+      ha-card-background: "rgba(255, 245, 245, 0.9)"
+      paper-card-header-color: var(--primary-text-color)
+      paper-card-background-color: var(--ha-card-background)
+      paper-listbox-background-color: var(--primary-background-color)
+
+      ### Toggles ###
+      paper-toggle-button-checked-button-color: "#b2b2b2"
+      paper-toggle-button-checked-bar-color: var(--light-primary-color)
+      paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
+      paper-toggle-button-unchecked-bar-color: "#6a3079"
+
+      ### Table row ###
+      table-row-background-color: var(--primary-background-color)
+      table-row-alternative-background-color: var(--primary-background-color)
+      data-table-background-color: var(--primary-background-color)
+
+      ### Switches ###
+      switch-unchecked-button-color: var(--divider-color)
+      switch-unchecked-track-color: var(--divider-color)
