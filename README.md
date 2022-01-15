@@ -1,6 +1,6 @@
 # Home Assistant Theme - Vastayan Bond (Light & Dark mode!)
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz/docs/faq/custom_repositories)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/snakefist)
 
 * [Preparation](#preparation)
