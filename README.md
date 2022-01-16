@@ -1,7 +1,9 @@
 # Home Assistant Theme - Vastayan Bond (Light & Dark mode!)
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 [![donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/snakefist)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/SnakeFist007/ha_vastayan_bond?label=Version&labelColor=grey&color=green)
+![GitHub All Releases](https://img.shields.io/github/downloads/SnakeFist007/ha_vastayan_bond/total?&label=Total%20Downloads&labelColor=grey&color=green)
 
 * [Preparation](#preparation)
 * [HACS installation](#hacs_installation)
