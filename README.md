@@ -1,7 +1,9 @@
 # Home Assistant Theme - Vastayan Bond (Light & Dark mode!)
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz/docs/faq/custom_repositories)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
 [![donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/snakefist)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/SnakeFist007/ha_vastayan_bond?label=Version&labelColor=grey&color=green)
+![GitHub All Releases](https://img.shields.io/github/downloads/SnakeFist007/ha_vastayan_bond/total?&label=Total%20Downloads&labelColor=grey&color=green)
 
 * [Preparation](#preparation)
 * [HACS installation](#hacs_installation)
@@ -30,9 +32,8 @@ If the **themes** folder does not exist in **config**, create one.
 3. Restart Home Assistant
 
 ### <a name="enable_the_theme"></a>Enable the theme
-- Open your **Profile** in Home Assistant and select the theme called **Xayah**
-- Alternatively activate it for the cards you want to redesign.
-
+- Open your **Profile** in Home Assistant and select the theme called **Vastayan Bond**
+- Choose the mode you want to use it in! (Auto / Light / Dark)
 
 ### <a name="samples"></a>Samples
 To be added.
