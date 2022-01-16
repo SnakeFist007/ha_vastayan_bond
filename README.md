@@ -30,9 +30,8 @@ If the **themes** folder does not exist in **config**, create one.
 3. Restart Home Assistant
 
 ### <a name="enable_the_theme"></a>Enable the theme
-- Open your **Profile** in Home Assistant and select the theme called **Xayah**
-- Alternatively activate it for the cards you want to redesign.
-
+- Open your **Profile** in Home Assistant and select the theme called **Vastayan Bond**
+- Choose the mode you want to use it in! (Auto / Light / Dark)
 
 ### <a name="samples"></a>Samples
 To be added.
