@@ -36,4 +36,28 @@ If the **themes** folder does not exist in **config**, create one.
 - Choose the mode you want to use it in! (Auto / Light / Dark)
 
 ### <a name="samples"></a>Samples
-To be added.
+## Xayah Theme - Dark
+<p align="center">
+  <img src="https://i.imgur.com/7PrLhou.png">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/a4QPU3r.png">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/jV6XebU.png">
+</p>
+
+## Rakan Theme - Light
+<p align="center">
+  <img src="https://i.imgur.com/Dfc36SV.png">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/ksOdGp7.png">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/WhVqmBK.png">
+</p>
