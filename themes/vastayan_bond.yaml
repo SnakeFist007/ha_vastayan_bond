@@ -1,17 +1,5 @@
 Vastayan Bond:
-  ### Created by: SnakeFist007, January 2022
-  ### Xayah Inspired - "Dark-Theme"
-  #
-  ### Theme Color Palette ###
-  # #784f73 / #ab70fe ## Xayah Main Colors
-  # #a93451 / #d93b62 ## Xayah Secondary Colors
-  # #6a3079 / #ad4ec5 ## Xayah Tertiary Colors
-  #
-  # #ae3822 / #e65438 ## Rakan Main Colors
-  #
-  # #f7dcf3 / #ffffff ## White Tones
-  # #140a19 / #000000 ## Black Tones
-  #
+  ### Created by: SnakeFist007, January 2022, https://github.com/SnakeFist007/ha_vastayan_bond/
   ### Rakan Inspired - "Light-Theme"
   #
   ### Theme Color Palette
@@ -24,54 +12,82 @@ Vastayan Bond:
   # #f7e7e3 / #ffffff ## White Tones
   # #140a19 / #000000 ## Black Tones
 
+  ### VARIABLES ###
+  # Xayah Colors
+  xayah-primary-color: "#a93451"
+  xayah-secondary-color: "#d93b62"
+  xayah-background-color: "#32193f"
+  xayah-transparent-primary: "rgba(50, 25, 33, 1)"
+
+  xayah-unique-color: "#ab70fe"
+  xayah-unique-alt: "#6a3079"
+  xayah-disabled-color: "#784f73"
+  xayah-state-active: "#ff5151"
+  xayah-label-yellow: "#e54a5d"
+
+  xayah-white-tone: "#fcfcfc"
+  xayah-black-tone: "#140a19"
+  
+  # Rakan Colors
+  rakan-primary-color: "#e65438"
+  rakan-secondary-color: "#ae3822" 
+
+  true-white: "#ffffff"
+
+  true-black: "#000000"
+  transparent-black: "rgba(0, 0, 0, 0.85)"
+
+
+  ### THEME
   modes:
+    ## XAYAH THEME / DARK MODE
     dark:
       ### Header ###
       header-height: 45px
-      app-header-background-color: "#140a19"
+      app-header-background-color: var(--xayah-black-tone)
 
       ### Fonts ###
       primary-font-family: "ProximaNova-Regular,Raleway,Roboto,sans-serif"
-      paper-font-common-base_-_font-family: "var(--primary-font-family)"
-      paper-font-common-code_-_font-family: "var(--primary-font-family)"
-      paper-font-body1_-_font-family: "var(--primary-font-family)"
-      paper-font-subhead_-_font-family: "var(--primary-font-family)"
-      paper-font-headline_-_font-family: "var(--primary-font-family)"
-      paper-font-caption_-_font-family: "var(--primary-font-family)"
-      paper-font-title_-_font-family: "var(--primary-font-family)"
-      ha-card-header-font-family: "var(--primary-font-family)"
+      paper-font-common-base_-_font-family: var(--primary-font-family)
+      paper-font-common-code_-_font-family: var(--primary-font-family)
+      paper-font-body1_-_font-family: var(--primary-font-family)
+      paper-font-subhead_-_font-family: var(--primary-font-family)
+      paper-font-headline_-_font-family: var(--primary-font-family)
+      paper-font-caption_-_font-family: var(--primary-font-family)
+      paper-font-title_-_font-family: var(--primary-font-family)
+      ha-card-header-font-family: var(--primary-font-family)
 
       ### Main Interface Colors ###
-      primary-color: "#a93451"
-      light-primary-color: "#d93b62"
-      card-background-color: "rgba(50, 25, 33, 1)"
+      primary-color: var(--xayah-primary-color)
+      light-primary-color: var(--xayah-secondary-color)
+      card-background-color: var(--xayah-transparent-primary)
       primary-background-color: var(--app-header-background-color)
-      secondary-background-color: "#32193f"
-      divider-color: "#a93451"
-      accent-color: "#e65438"
-      markdown-code-background-color: "#ae3822"
-      unique-color: "#ab70fe"
+      secondary-background-color: var(--xayah-background-color)
+      divider-color: var(--xayah-primary-color)
+      accent-color: var(--rakan-primary-color)
+      markdown-code-background-color: var(--rakan-secondary-color)
+      unique-color: var(--xayah-unique-color)
 
       ### Text ###
-      primary-text-color: "#FFFFFF"
+      primary-text-color: var(--true-white)
       secondary-text-color: var(--light-primary-color)
       text-primary-color: var(--primary-text-color)
-      disabled-text-color: "#784f73"
+      disabled-text-color: var(--xayah-disabled-color)
 
       ### Sidebar Menu ###
-      sidebar-icon-color: "#a93451"
-      sidebar-text-color: "#FFFFFF"
+      sidebar-icon-color: var(--xayah-primary-color)
+      sidebar-text-color: var(--true-white)
       sidebar-selected-background-color: var(--primary-background-color)
       sidebar-selected-icon-color: var(--light-primary-color)
       sidebar-selected-text-color: var(--sidebar-selected-icon-color)
       sidebar-background-color: var(--primary-background-color)
 
       ### HACS ###
-      hcv-color-new: "#a93451"
+      hcv-color-new: var(--xayah-primary-color)
 
       ### States and Badges ###
       state-icon-color: var(--primary-color)
-      state-icon-active-color: "#ff5151"
+      state-icon-active-color: var(--xayah-state-active)
       state-icon-unavailable-color: var(--disabled-text-color)
 
       ### Sliders ###
@@ -85,20 +101,20 @@ Vastayan Bond:
       label-badge-background-color: var(--markdown-code-background-color)
       label-badge-text-color: var(--primary-text-color)
       label-badge-red: var(--divider-color)
-      label-badge-yellow: "#e54a5d"
+      label-badge-yellow: "var(--xayah-label-yellow)"
 
       ### Cards ###
       ha-card-border-radius: "10px"
-      ha-card-background: "rgba(0, 0, 0, 0.85)"
+      ha-card-background: var(--transparent-black)
       paper-card-header-color: var(--primary-text-color)
       paper-card-background-color: var(--ha-card-background)
       paper-listbox-background-color: var(--primary-background-color)
 
       ### Toggles ###
-      paper-toggle-button-checked-button-color: "#FCFCFC"
+      paper-toggle-button-checked-button-color: var(--xayah-white-tone)
       paper-toggle-button-checked-bar-color: var(--light-primary-color)
       paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
-      paper-toggle-button-unchecked-bar-color: "#6a3079"
+      paper-toggle-button-unchecked-bar-color: var(--xayah-unique-alt)
 
       ### Table row ###
       table-row-background-color: var(--primary-background-color)
@@ -106,9 +122,26 @@ Vastayan Bond:
       data-table-background-color: var(--primary-background-color)
 
       ### Switches ###
+      #switch-checked-button-color: 
       switch-unchecked-button-color: var(--divider-color)
       switch-unchecked-track-color: var(--divider-color)
 
+      # Media Player
+      mini-media-player-icon-color: var(--primary-color)
+      mini-media-player-accent-color: var(--primary-color)
+      mini-media-player-progress-height: "8px"
+
+      # Energy Panel
+      energy-grid-consumption-color: "#488fc2"
+      energy-grid-return-color: "#8353d1"
+      energy-solar-color: "#ff9800"
+      energy-non-fossil-color: "#0f9d58"
+      energy-battery-out-color: "#4db6ac"
+      energy-battery-in-color: "#f06292"
+      energy-gas-color: "#8E021b"
+
+
+    ## RAKAN THEME / LIGHT MODE
     light:
       ### Header ###
       header-height: 45px
@@ -126,32 +159,32 @@ Vastayan Bond:
       ha-card-header-font-family: "var(--primary-font-family)"
 
       ### Main Interface Colors ###
-      primary-color: "#e65438"
-      light-primary-color: "#d93b62"
+      primary-color: "var(--rakan-primary-color)"
+      light-primary-color: "var(--xayah-secondary-color)"
       card-background-color: "rgba(255, 246, 246, 1)"
       primary-background-color: var(--app-header-background-color)
-      secondary-background-color: "#ffffff"
-      divider-color: "#e65438"
-      accent-color: "#d93b62"
-      markdown-code-background-color: "#ffffff"
+      secondary-background-color: "var(--true-white)"
+      divider-color: "var(--rakan-primary-color)"
+      accent-color: "var(--xayah-secondary-color)"
+      markdown-code-background-color: "var(--true-white)"
       unique-color: "#f4bc4e"
 
       ### Text ###
-      primary-text-color: "#000000"
+      primary-text-color: "var(--true-black)"
       secondary-text-color: var(--light-primary-color)
       text-primary-color: var(--primary-text-color)
-      disabled-text-color: "#784f73"
+      disabled-text-color: "var(--xayah-disabled-color)"
 
       ### Sidebar Menu ###
-      sidebar-icon-color: "#e65438"
-      sidebar-text-color: "#000000"
+      sidebar-icon-color: "var(--rakan-primary-color)"
+      sidebar-text-color: "var(--true-black)"
       sidebar-selected-background-color: var(--primary-background-color)
       sidebar-selected-icon-color: var(--light-primary-color)
       sidebar-selected-text-color: var(--sidebar-selected-icon-color)
       sidebar-background-color: var(--primary-background-color)
 
       ### HACS ###
-      hcv-color-new: "#e65438"
+      hcv-color-new: "var(--rakan-primary-color)"
 
       ### States and Badges ###
       state-icon-color: var(--primary-color)
@@ -169,7 +202,7 @@ Vastayan Bond:
       label-badge-background-color: var(--markdown-code-background-color)
       label-badge-text-color: var(--primary-text-color)
       label-badge-red: var(--divider-color)
-      label-badge-yellow: "#ae3822"
+      label-badge-yellow: "var(--rakan-secondary-color)"
 
       ### Cards ###
       ha-card-border-radius: "10px"
@@ -182,7 +215,7 @@ Vastayan Bond:
       paper-toggle-button-checked-button-color: "#b2b2b2"
       paper-toggle-button-checked-bar-color: var(--light-primary-color)
       paper-toggle-button-unchecked-button-color: var(--paper-toggle-button-checked-button-color)
-      paper-toggle-button-unchecked-bar-color: "#6a3079"
+      paper-toggle-button-unchecked-bar-color: "var(--xayah-unique-alt)"
 
       ### Table row ###
       table-row-background-color: var(--primary-background-color)
@@ -192,3 +225,17 @@ Vastayan Bond:
       ### Switches ###
       switch-unchecked-button-color: var(--divider-color)
       switch-unchecked-track-color: var(--divider-color)
+
+      # Media Player
+      mini-media-player-icon-color: var(--primary-color)
+      mini-media-player-accent-color: var(--primary-color)
+      mini-media-player-progress-height: 8px
+
+      # Energy Panel
+      energy-grid-consumption-color: "#488fc2"
+      energy-grid-return-color: "#8353d1"
+      energy-solar-color: "#ff9800"
+      energy-non-fossil-color: "#0f9d58"
+      energy-battery-out-color: "#4db6ac"
+      energy-battery-in-color: "#f06292"
+      energy-gas-color: "#8E021b"
