@@ -29,6 +29,7 @@ If the **themes** folder does not exist in **config**, create one.
 
 ### <a name="manual_installation"></a>Manual installation
 1. Copy the file `vastayan_bond.yaml` into your **themes** folder
+2. Copy the folder `proxima-nova-font` into your **www** folder
 3. Restart Home Assistant
 
 ### <a name="enable_the_theme"></a>Enable the theme
