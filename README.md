@@ -15,10 +15,10 @@
 ### <a name="preparation"></a>Preparation
 Check if **configuration.yaml** is loading the themes from the themes folder:   
 
-<pre>
+```yaml
 frontend:
   themes: !include_dir_merge_named themes
-</pre>
+```
 
 If the **themes** folder does not exist in **config**, create one.   
 
