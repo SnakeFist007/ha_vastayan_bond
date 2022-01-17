@@ -37,7 +37,7 @@ If the **themes** folder does not exist in **config**, create one.
 ---
 
 ### <a name="font_installation"></a>Font Installation
-1. Copy the complete folder `proxima-nova-font` into your **www** folder
+1. Copy the complete `proxima-nova-font` directory into the **www** folder
 2. Go to **Configuration** > **Lovelace Dashboard** > **Resources** and add the following resource:
 
 ```
