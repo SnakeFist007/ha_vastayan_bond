@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family:"ProximaNova-Regular";
+    src:url("ProximaNova-Regular.woff2") format("woff2"),url("ProximaNova-Regular.woff") format("woff"),url("ProximaNova-Regular.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+
+@font-face {
+    font-family:"ProximaNova-Light";
+    src:url("ProximaNova-Light.woff2") format("woff2"),url("ProximaNova-Light.woff") format("woff"),url("ProximaNova-Light.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
+
+@font-face {
+    font-family:"ProximaNova-Bold";
+    src:url("ProximaNova-Bold.woff2") format("woff2"),url("ProximaNova-Bold.woff") format("woff"),url("ProximaNova-Bold.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
+        
+body{
+  font-family:ProximaNova-Regular, Raleway, Roboto, sans-serif !important;
+}        
+
