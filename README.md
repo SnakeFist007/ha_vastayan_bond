@@ -24,11 +24,11 @@ If the **themes** folder does not exist in **config**, create one.
 
 ### <a name="hacs_installation"></a>HACS installation
 1. Open the Community Store (HACS)
-2. Add `https://github.com/SnakeFist007/ha_vastayan_bond` as a custom repository
-3. Install it
+2. Search for `Vastayan Bond`
+3. Download + Install
 4. Go to config > lovelace dashboard > resources (config/lovelace/resources) and add this resource:
 “/local/proxima-nova-font/ProximaNova-Regular.css” Resource type :stylesheet
-5. Restart Home Assistant
+4. Restart Home Assistant
 
 ### <a name="manual_installation"></a>Manual installation / Font installation
 1. Copy the file `vastayan_bond.yaml` into your **themes** folder
